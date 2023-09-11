@@ -27,7 +27,9 @@ SuperPy is a command-line based inventory management tool designed to keep track
 
 3. **Buy a Product**
 
-   python super.py buy --product-name "Product Name" --price <buy_price> --expiration-date YYYY-MM-DD
+   python super.py buy --product-name "Product Name" --price <buy_price> --expiration-date YYYY-MM-DD --quantity <quantity>
+
+   The --quantity option allows you to specify the quantity of the product to buy (default is 1).
 
 4. **Sell a Product**
 
@@ -47,6 +49,8 @@ SuperPy is a command-line based inventory management tool designed to keep track
    - **Profit Report for a Specific Date**:
      python super.py report profit --date YYYY-MM-DD
 
+  The inventory report is created in CSV format with the name inventory_report.csv.
+
 ## Data Storage
 
 All transaction data is stored in CSV files located in the `data` directory:
@@ -56,8 +60,4 @@ All transaction data is stored in CSV files located in the `data` directory:
 
 ## Author
 
-[Your Name]
-
-```
-
-Make sure to replace `[Your Name]` with your actual name.
+Martin de Bes
