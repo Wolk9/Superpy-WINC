@@ -49,7 +49,8 @@ SuperPy is a command-line based inventory management tool designed to keep track
    - **Profit Report for a Specific Date**:
      python super.py report profit --date YYYY-MM-DD
 
-  The inventory report is created in CSV format with the name inventory_report.csv.
+  The inventory report is created in CSV format with the name inventory_report.csv and displayed 
+  with tabulate to the commandline.
 
 ## Data Storage
 
@@ -58,6 +59,6 @@ All transaction data is stored in CSV files located in the `data` directory:
 - `bought.csv`: Contains details about products bought.
 - `sold.csv`: Contains details about products sold.
 
-## Author
+## Student Author
 
 Martin de Bes
